@@ -1,0 +1,44 @@
+# Datasets & raw data (download separately)
+data/
+
+# Model/dataset caches (HuggingFace downloads, NLI cache, LLM responses)
+cache/
+logs/
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.conda/
+
+# Large binaries
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Figures: upload PDF versions only
+figures/*.png
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+*.synctex.gz
+
+# Markdown files (README will be added manually later: git add -f README.md)
+*.md
+
+# OS
+.DS_Store
+
+# Superseded working copies (cleaned release versions live under code/)
+/src/
+/scripts/

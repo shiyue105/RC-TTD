@@ -1,0 +1,27 @@
+{
+  "dataset": "scifact",
+  "wrong_context": true,
+  "policy": "rcttd_rule",
+  "n_test": 500,
+  "alpha": 0.1,
+  "budget": 4.0,
+  "q_alpha": 0.37375118425369264,
+  "action_counts": {
+    "Answer": 436,
+    "RetrieveMore": 55,
+    "VerifyMore": 9
+  },
+  "accuracy": 0.558,
+  "coverage": 1.0,
+  "selective_risk": 0.442,
+  "avg_cost": 1.146,
+  "retrieve_more_count": 55,
+  "verify_more_count": 9,
+  "retrieve_more_fixed": 20,
+  "verify_more_fixed": 0,
+  "retrieve_more_broken": 2,
+  "verify_more_broken": 3,
+  "retrieve_more_fix_rate": 0.36363636363636365,
+  "verify_more_fix_rate": 0.0,
+  "elapsed_seconds": 122.1388807296753
+}

@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\caption{Ablation (Real Corrective Actions): Effect of removing each signal. ``Prob Only'' disables all corrective actions (equivalent to LAC). On SciQ, disabling conflict detection reduces coverage (0.964 vs 0.996). On SciFact, disabling retrieval increases cost (1.23 vs 1.16) and risk (0.344 vs 0.326).}
+\label{tab:ablation}
+\begin{tabular}{l|cccc|cccc}
+\toprule
+& \multicolumn{4}{c|}{\textbf{SciQ}} & \multicolumn{4}{c}{\textbf{SciFact}} \\
+Variant & Acc & Cov & Risk & Cost & Acc & Cov & Risk & Cost \\
+\midrule
+Full & 0.980 & 0.996 & 0.016 & 1.11 & 0.674 & 1.000 & 0.326 & 1.16 \\
+No Retr & 0.982 & 0.994 & 0.012 & 1.15 & 0.656 & 1.000 & 0.344 & 1.23 \\
+No Conf & 0.948 & 0.964 & 0.017 & 1.00 & 0.690 & 1.000 & 0.310 & 1.08 \\
+No Verif & 0.980 & 0.996 & 0.016 & 1.11 & 0.674 & 1.000 & 0.326 & 1.16 \\
+Prob Only & 0.916 & 0.924 & 0.009 & 0.92 & 0.672 & 1.000 & 0.328 & 1.00 \\
+\bottomrule
+\end{tabular}
+\end{table}

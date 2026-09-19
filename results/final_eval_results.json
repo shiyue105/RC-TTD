@@ -1,0 +1,364 @@
+{
+  "sciq_seed0_v2": {
+    "always_answer": {
+      "policy": "always_answer",
+      "accuracy": 0.982,
+      "coverage": 1.0,
+      "risk": 0.018000000000000016,
+      "cost": 1.0,
+      "action_dist": {
+        "Answer": 500
+      }
+    },
+    "entropy_abstain": {
+      "policy": "entropy_abstain",
+      "accuracy": 0.9836734693877551,
+      "coverage": 0.98,
+      "risk": 0.01632653061224487,
+      "cost": 0.98,
+      "action_dist": {
+        "Answer": 490,
+        "Abstain": 10
+      }
+    },
+    "lac": {
+      "policy": "lac",
+      "accuracy": 0.9912854030501089,
+      "coverage": 0.918,
+      "risk": 0.008714596949891074,
+      "cost": 0.918,
+      "action_dist": {
+        "Answer": 459,
+        "Abstain": 41
+      }
+    },
+    "aps": {
+      "policy": "aps",
+      "accuracy": 0.991304347826087,
+      "coverage": 0.92,
+      "risk": 0.008695652173912993,
+      "cost": 0.92,
+      "action_dist": {
+        "Answer": 460,
+        "Abstain": 40
+      }
+    },
+    "always_retrieve": {
+      "policy": "always_retrieve",
+      "accuracy": 0.986,
+      "coverage": 1.0,
+      "risk": 0.014000000000000012,
+      "cost": 2.0,
+      "action_dist": {
+        "RetrieveMore": 500
+      }
+    },
+    "always_verify": {
+      "policy": "always_verify",
+      "accuracy": 0.992,
+      "coverage": 1.0,
+      "risk": 0.008000000000000007,
+      "cost": 3.0,
+      "action_dist": {
+        "VerifyMore": 500
+      }
+    },
+    "rcttd_rule": {
+      "policy": "rcttd_rule",
+      "accuracy": 0.9859437751004017,
+      "coverage": 0.996,
+      "risk": 0.014056224899598346,
+      "cost": 1.112,
+      "action_dist": {
+        "Answer": 459,
+        "VerifyMore": 19,
+        "RetrieveMore": 20,
+        "Abstain": 2
+      }
+    },
+    "rcttd_learned": {
+      "policy": "rcttd_learned",
+      "accuracy": 0.9857723577235772,
+      "coverage": 0.984,
+      "risk": 0.014227642276422814,
+      "cost": 1.012,
+      "action_dist": {
+        "Answer": 481,
+        "Abstain": 8,
+        "VerifyMore": 3,
+        "RetrieveMore": 8
+      }
+    }
+  },
+  "scifact_seed0_v2": {
+    "always_answer": {
+      "policy": "always_answer",
+      "accuracy": 0.672,
+      "coverage": 1.0,
+      "risk": 0.32799999999999996,
+      "cost": 1.0,
+      "action_dist": {
+        "Answer": 500
+      }
+    },
+    "entropy_abstain": {
+      "policy": "entropy_abstain",
+      "accuracy": 0.7789115646258503,
+      "coverage": 0.588,
+      "risk": 0.22108843537414968,
+      "cost": 0.588,
+      "action_dist": {
+        "Answer": 294,
+        "Abstain": 206
+      }
+    },
+    "lac": {
+      "policy": "lac",
+      "accuracy": 0.7064220183486238,
+      "coverage": 0.872,
+      "risk": 0.29357798165137616,
+      "cost": 0.872,
+      "action_dist": {
+        "Answer": 436,
+        "Abstain": 64
+      }
+    },
+    "aps": {
+      "policy": "aps",
+      "accuracy": 0.7064220183486238,
+      "coverage": 0.872,
+      "risk": 0.29357798165137616,
+      "cost": 0.872,
+      "action_dist": {
+        "Answer": 436,
+        "Abstain": 64
+      }
+    },
+    "always_retrieve": {
+      "policy": "always_retrieve",
+      "accuracy": 0.768,
+      "coverage": 1.0,
+      "risk": 0.23199999999999998,
+      "cost": 2.0,
+      "action_dist": {
+        "RetrieveMore": 500
+      }
+    },
+    "always_verify": {
+      "policy": "always_verify",
+      "accuracy": 0.836,
+      "coverage": 1.0,
+      "risk": 0.16400000000000003,
+      "cost": 3.0,
+      "action_dist": {
+        "VerifyMore": 500
+      }
+    },
+    "rcttd_rule": {
+      "policy": "rcttd_rule",
+      "accuracy": 0.694,
+      "coverage": 1.0,
+      "risk": 0.30600000000000005,
+      "cost": 1.158,
+      "action_dist": {
+        "Answer": 441,
+        "RetrieveMore": 39,
+        "VerifyMore": 20
+      }
+    },
+    "rcttd_learned": {
+      "policy": "rcttd_learned",
+      "accuracy": 0.7055214723926381,
+      "coverage": 0.978,
+      "risk": 0.29447852760736193,
+      "cost": 1.034,
+      "action_dist": {
+        "Answer": 464,
+        "RetrieveMore": 22,
+        "Abstain": 11,
+        "VerifyMore": 3
+      }
+    }
+  },
+  "sciq_wrong_context_seed0_v2": {
+    "always_answer": {
+      "policy": "always_answer",
+      "accuracy": 0.956,
+      "coverage": 1.0,
+      "risk": 0.04400000000000004,
+      "cost": 1.0,
+      "action_dist": {
+        "Answer": 500
+      }
+    },
+    "entropy_abstain": {
+      "policy": "entropy_abstain",
+      "accuracy": 0.9764453961456103,
+      "coverage": 0.934,
+      "risk": 0.023554603854389677,
+      "cost": 0.934,
+      "action_dist": {
+        "Answer": 467,
+        "Abstain": 33
+      }
+    },
+    "lac": {
+      "policy": "lac",
+      "accuracy": 0.9925742574257426,
+      "coverage": 0.808,
+      "risk": 0.007425742574257432,
+      "cost": 0.808,
+      "action_dist": {
+        "Answer": 404,
+        "Abstain": 96
+      }
+    },
+    "aps": {
+      "policy": "aps",
+      "accuracy": 0.9925742574257426,
+      "coverage": 0.808,
+      "risk": 0.007425742574257432,
+      "cost": 0.808,
+      "action_dist": {
+        "Answer": 404,
+        "Abstain": 96
+      }
+    },
+    "always_retrieve": {
+      "policy": "always_retrieve",
+      "accuracy": 0.972,
+      "coverage": 1.0,
+      "risk": 0.028000000000000025,
+      "cost": 2.0,
+      "action_dist": {
+        "RetrieveMore": 500
+      }
+    },
+    "always_verify": {
+      "policy": "always_verify",
+      "accuracy": 0.982,
+      "coverage": 1.0,
+      "risk": 0.018000000000000016,
+      "cost": 3.0,
+      "action_dist": {
+        "VerifyMore": 500
+      }
+    },
+    "rcttd_rule": {
+      "policy": "rcttd_rule",
+      "accuracy": 0.969939879759519,
+      "coverage": 0.998,
+      "risk": 0.030060120240480992,
+      "cost": 1.208,
+      "action_dist": {
+        "Answer": 404,
+        "RetrieveMore": 85,
+        "VerifyMore": 10,
+        "Abstain": 1
+      }
+    },
+    "rcttd_learned": {
+      "policy": "rcttd_learned",
+      "accuracy": 0.9616935483870968,
+      "coverage": 0.992,
+      "risk": 0.03830645161290325,
+      "cost": 1.038,
+      "action_dist": {
+        "Answer": 475,
+        "RetrieveMore": 19,
+        "Abstain": 4,
+        "VerifyMore": 2
+      }
+    }
+  },
+  "scifact_wrong_context_seed0_v2": {
+    "always_answer": {
+      "policy": "always_answer",
+      "accuracy": 0.528,
+      "coverage": 1.0,
+      "risk": 0.472,
+      "cost": 1.0,
+      "action_dist": {
+        "Answer": 500
+      }
+    },
+    "entropy_abstain": {
+      "policy": "entropy_abstain",
+      "accuracy": 0.5601503759398496,
+      "coverage": 0.532,
+      "risk": 0.4398496240601504,
+      "cost": 0.532,
+      "action_dist": {
+        "Answer": 266,
+        "Abstain": 234
+      }
+    },
+    "lac": {
+      "policy": "lac",
+      "accuracy": 0.5334872979214781,
+      "coverage": 0.866,
+      "risk": 0.4665127020785219,
+      "cost": 0.866,
+      "action_dist": {
+        "Answer": 433,
+        "Abstain": 67
+      }
+    },
+    "aps": {
+      "policy": "aps",
+      "accuracy": 0.5334872979214781,
+      "coverage": 0.866,
+      "risk": 0.4665127020785219,
+      "cost": 0.866,
+      "action_dist": {
+        "Answer": 433,
+        "Abstain": 67
+      }
+    },
+    "always_retrieve": {
+      "policy": "always_retrieve",
+      "accuracy": 0.662,
+      "coverage": 1.0,
+      "risk": 0.33799999999999997,
+      "cost": 2.0,
+      "action_dist": {
+        "RetrieveMore": 500
+      }
+    },
+    "always_verify": {
+      "policy": "always_verify",
+      "accuracy": 0.752,
+      "coverage": 1.0,
+      "risk": 0.248,
+      "cost": 3.0,
+      "action_dist": {
+        "VerifyMore": 500
+      }
+    },
+    "rcttd_rule": {
+      "policy": "rcttd_rule",
+      "accuracy": 0.552,
+      "coverage": 1.0,
+      "risk": 0.44799999999999995,
+      "cost": 1.146,
+      "action_dist": {
+        "Answer": 436,
+        "RetrieveMore": 55,
+        "VerifyMore": 9
+      }
+    },
+    "rcttd_learned": {
+      "policy": "rcttd_learned",
+      "accuracy": 0.5524193548387096,
+      "coverage": 0.992,
+      "risk": 0.44758064516129037,
+      "cost": 1.07,
+      "action_dist": {
+        "Answer": 459,
+        "RetrieveMore": 35,
+        "Abstain": 4,
+        "VerifyMore": 2
+      }
+    }
+  }
+}

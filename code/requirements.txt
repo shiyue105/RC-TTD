@@ -1,0 +1,20 @@
+# RC-TTD: Risk-Calibrated Test-Time Decision Making for Reliable RAG
+# Python dependencies
+
+# Deep Learning
+torch>=2.0.0
+transformers>=4.40.0
+
+# Data & Retrieval
+numpy>=1.24.0
+rank_bm25>=0.2.2
+datasets>=2.14.0
+
+# ML & Metrics
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Utils (standard library: json, pathlib, logging, argparse, hashlib, etc.)

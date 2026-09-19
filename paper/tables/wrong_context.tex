@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{Wrong-Context Stress Test (Real End-to-End Corrective Actions): 50\% of test instances have retrieved evidence replaced with irrelevant documents. Both datasets use $n{=}500$. Wrong context degrades always-answer accuracy (SciQ: 0.982$\to$0.956; SciFact: 0.672$\to$0.528). LAC/APS become over-conservative (SciQ coverage 0.92$\to$0.81). RC-TTD maintains $\sim$100\% coverage by triggering real \textsc{RetrieveMore} (re-retrieval with top-15, fix rate up to 0.36 on SciFact-WC).}
+\label{tab:wrong_context}
+\begin{tabular}{lcccc cccc}
+\toprule
+& \multicolumn{4}{c}{\textbf{SciQ (Wrong Context)}} & \multicolumn{4}{c}{\textbf{SciFact (Wrong Context)}} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9}
+Method & Acc & Cov & Risk & Cost & Acc & Cov & Risk & Cost \\
+\midrule
+Always Answer & 0.956 & 1.000 & 0.044 & 1.00 & 0.528 & 1.000 & 0.472 & 1.00 \\
+LAC & 0.993 & 0.808 & 0.007 & 0.81 & 0.533 & 0.866 & 0.467 & 0.87 \\
+APS & 0.993 & 0.808 & 0.007 & 0.81 & 0.533 & 0.866 & 0.467 & 0.87 \\
+Always Retrieve & 0.972 & 1.000 & 0.028 & 2.00 & 0.662 & 1.000 & 0.338 & 2.00 \\
+Always Verify & 0.982 & 1.000 & 0.018 & 3.00 & 0.752 & 1.000 & 0.248 & 3.00 \\
+\textbf{RC-TTD (Rule)} & 0.976 & 0.998 & 0.022 & 1.21 & 0.558 & 1.000 & 0.442 & 1.15 \\
+\bottomrule
+\end{tabular}
+\end{table*}

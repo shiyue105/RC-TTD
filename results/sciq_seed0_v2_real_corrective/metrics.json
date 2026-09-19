@@ -1,0 +1,28 @@
+{
+  "dataset": "sciq",
+  "wrong_context": false,
+  "policy": "rcttd_rule",
+  "n_test": 500,
+  "alpha": 0.1,
+  "budget": 4.0,
+  "q_alpha": 0.019971680680482707,
+  "action_counts": {
+    "Answer": 459,
+    "VerifyMore": 19,
+    "RetrieveMore": 20,
+    "Abstain": 2
+  },
+  "accuracy": 0.98,
+  "coverage": 0.996,
+  "selective_risk": 0.01606425702811245,
+  "avg_cost": 1.112,
+  "retrieve_more_count": 20,
+  "verify_more_count": 19,
+  "retrieve_more_fixed": 0,
+  "verify_more_fixed": 2,
+  "retrieve_more_broken": 1,
+  "verify_more_broken": 0,
+  "retrieve_more_fix_rate": 0.0,
+  "verify_more_fix_rate": 0.10526315789473684,
+  "elapsed_seconds": 154.3226397037506
+}

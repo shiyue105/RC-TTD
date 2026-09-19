@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Real Corrective Action Effectiveness (end-to-end, not simulated). ``RM''=\textsc{RetrieveMore}, ``VM''=\textsc{VerifyMore}. ``Fixed''=wrong$\to$correct. Fix Rate=Fixed/(Fixed+Still Wrong). RM fix rates are highest on hard/WC datasets; VM is less reliable.}
+\label{tab:fix_rates}
+\begin{tabular}{l|cc|cc|cc}
+\toprule
+& \multicolumn{2}{c|}{\textbf{RM}} & \multicolumn{2}{c|}{\textbf{VM}} & \multicolumn{2}{c}{\textbf{Fix Rate}} \\
+Dataset & \#Exec & Fixed & \#Exec & Fixed & RM & VM \\
+\midrule
+SciQ & 20 & 0 & 19 & 2 & 0.00 & 0.11 \\
+SciFact & 39 & 10 & 20 & 0 & 0.26 & 0.00 \\
+SciQ (WC) & 85 & 11 & 10 & 1 & 0.13 & 0.10 \\
+SciFact (WC) & 55 & 20 & 9 & 0 & 0.36 & 0.00 \\
+\bottomrule
+\end{tabular}
+\end{table}

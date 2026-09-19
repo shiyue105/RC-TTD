@@ -1,0 +1,131 @@
+{
+  "sciq_seed0": {
+    "rcttd_rule": {
+      "policy": "rcttd_rule",
+      "accuracy": 0.9798657718120806,
+      "coverage": 0.9933333333333333,
+      "risk": 0.020134228187919434,
+      "cost": 1.1333333333333333,
+      "cost_per_correct": 0.007762557077625571,
+      "action_dist": {
+        "Answer": 135,
+        "VerifyMore": 7,
+        "RetrieveMore": 7,
+        "Abstain": 1
+      },
+      "q_alpha": 0.016739320488464073,
+      "learned_trained": null
+    },
+    "rcttd_learned": {
+      "policy": "rcttd_learned",
+      "accuracy": 0.9733333333333334,
+      "coverage": 1.0,
+      "risk": 0.026666666666666616,
+      "cost": 1.04,
+      "cost_per_correct": 0.007123287671232877,
+      "action_dist": {
+        "Answer": 147,
+        "VerifyMore": 3
+      },
+      "q_alpha": 0.016739320488464073,
+      "learned_trained": true
+    }
+  },
+  "sciq_wrong_context_seed0": {
+    "rcttd_rule": {
+      "policy": "rcttd_rule",
+      "accuracy": 0.9533333333333334,
+      "coverage": 1.0,
+      "risk": 0.046666666666666634,
+      "cost": 1.2333333333333334,
+      "cost_per_correct": 0.008624708624708625,
+      "action_dist": {
+        "Answer": 118,
+        "VerifyMore": 3,
+        "RetrieveMore": 29
+      },
+      "q_alpha": 0.016739320488464073,
+      "learned_trained": null
+    },
+    "rcttd_learned": {
+      "policy": "rcttd_learned",
+      "accuracy": 0.9333333333333333,
+      "coverage": 1.0,
+      "risk": 0.06666666666666665,
+      "cost": 1.0466666666666666,
+      "cost_per_correct": 0.007476190476190476,
+      "action_dist": {
+        "Answer": 145,
+        "VerifyMore": 2,
+        "RetrieveMore": 3
+      },
+      "q_alpha": 0.016739320488464073,
+      "learned_trained": true
+    }
+  },
+  "scifact_seed0": {
+    "rcttd_rule": {
+      "policy": "rcttd_rule",
+      "accuracy": 0.6733333333333333,
+      "coverage": 1.0,
+      "risk": 0.32666666666666666,
+      "cost": 1.16,
+      "cost_per_correct": 0.011485148514851485,
+      "action_dist": {
+        "Answer": 135,
+        "VerifyMore": 9,
+        "RetrieveMore": 6
+      },
+      "q_alpha": 0.3811695046174368,
+      "learned_trained": null
+    },
+    "rcttd_learned": {
+      "policy": "rcttd_learned",
+      "accuracy": 0.673469387755102,
+      "coverage": 0.98,
+      "risk": 0.326530612244898,
+      "cost": 1.0333333333333334,
+      "cost_per_correct": 0.01043771043771044,
+      "action_dist": {
+        "Answer": 141,
+        "Abstain": 3,
+        "RetrieveMore": 4,
+        "VerifyMore": 2
+      },
+      "q_alpha": 0.3811695046174368,
+      "learned_trained": true
+    }
+  },
+  "scifact_wrong_context_seed0": {
+    "rcttd_rule": {
+      "policy": "rcttd_rule",
+      "accuracy": 0.5266666666666666,
+      "coverage": 1.0,
+      "risk": 0.4733333333333334,
+      "cost": 1.1533333333333333,
+      "cost_per_correct": 0.014599156118143462,
+      "action_dist": {
+        "Answer": 131,
+        "VerifyMore": 4,
+        "RetrieveMore": 15
+      },
+      "q_alpha": 0.3811695046174368,
+      "learned_trained": null
+    },
+    "rcttd_learned": {
+      "policy": "rcttd_learned",
+      "accuracy": 0.527027027027027,
+      "coverage": 0.9866666666666667,
+      "risk": 0.472972972972973,
+      "cost": 1.0733333333333333,
+      "cost_per_correct": 0.013760683760683762,
+      "action_dist": {
+        "Answer": 135,
+        "RetrieveMore": 13,
+        "Abstain": 2
+      },
+      "q_alpha": 0.3811695046174368,
+      "learned_trained": true
+    }
+  }
+}
