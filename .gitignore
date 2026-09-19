@@ -1,5 +1,5 @@
-# Datasets & raw data (download separately)
-data/
+# macOS AppleDouble junk files
+._*
 
 # Model/dataset caches (HuggingFace downloads, NLI cache, LLM responses)
 cache/
